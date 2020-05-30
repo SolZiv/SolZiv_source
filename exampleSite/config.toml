@@ -1,4 +1,5 @@
 baseURL = "https://solziv.netlify.app/"
+DefaultContentLanguage = "de"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
