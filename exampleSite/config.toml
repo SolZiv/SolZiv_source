@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
-title = "Airspace | Creative Agency Hugo Template"
+baseURL = "https://solziv.github.io"
+title = "SolZiv | POTENZIALE DER ZIVILGESELLSCHAFT"
 theme = "airspace-hugo"
 # post pagination
 paginate = "4"
@@ -53,10 +53,10 @@ name = "About"
 URL = "about"
 weight = 1
 
-[[menu.main]]
-name = "Project"
-URL = "project"
-weight = 2
+# [[menu.main]]
+# name = "Project"
+# URL = "project"
+# weight = 2
 
 [[menu.main]]
 name = "Service"
@@ -123,10 +123,10 @@ weight = 6
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/SolZiv_logo/Original on Transparent_small.png"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Potenziale der Zivilgesellschaft"
+author = "SolZiv"
 # Contact Information
 mobile = "0124857985320"
 email = "demo@email.com"
