@@ -11,7 +11,7 @@ copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Ri
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
-weight = 1
+weight = "2"
 [Languages.fr]
 contentDir = "content/french"
 copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
