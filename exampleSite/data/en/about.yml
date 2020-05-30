@@ -2,8 +2,14 @@
 about:
   enable : true
   image : "images/company/about.jpg"
-  title : "ENTDECKE SOLZIV"
-  content : "Unser Projekt untersucht Ausmaß und Bedingungen solidarischen Verhaltens in zivilgesellschaftlichen Formen während der Corona-Pandemie. Zum einen: Wer engagiert sich zivilgesellschaftlich? In welcher Form? Und wie wird das Engagement trotz weitreichender Kontaktverbote praktisch umgesetzt? Zum anderen: Wer profitiert vom Engagement? Wer fühlt sich übersehen? Und welche Angebote nehmen Bedürftige an? Dies sind entscheidende Fragen, um die gesellschaftlichen Folgen der Pandemie zu verstehen und Maßnahmen abzuleiten, die die Zivilgesellschaft bei der Krisenbewältigung gezielt fördern. Wir werden gefördert von der Berlin University Alliance (BUA)."
+  title : "We strive to be the best and <br> make awesome work."
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam
+          iure officiis facere vitae itaque.
+          
+          
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est
+          velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Provident, neque!"
 
   button:
     enable : true
