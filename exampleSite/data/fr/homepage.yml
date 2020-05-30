@@ -2,25 +2,30 @@
 banner:
   enable : true
   bg_image : "images/slider-bg.jpg"
-  title : "Potenziale der Zivilgesellschaft"
-  content : "Unser Forschungsprojekt"
+  title : "A Digital Marketing <br/> & Design Agency"
+  content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
   button:
     enable : true
-    label : "ENTDECKE SOLZIV"
-    link : "about"
+    label : "Discover Our Project"
+    link : "project"
 
 ############################# About #################################
 about:
   enable : true
-  title : "Unser Forschungsprojekt"
-  description : "Unser Projekt untersucht Ausmaß und Bedingungen solidarischen Verhaltens in zivilgesellschaftlichen Formen während der Corona-Pandemie."
-  content : "Zum einen: Wer engagiert sich zivilgesellschaftlich? In welcher Form? Und wie wird das Engagement trotz weitreichender Kontaktverbote praktisch umgesetzt? Zum anderen: Wer profitiert vom Engagement? Wer fühlt sich übersehen? Und welche Angebote nehmen Bedürftige an? Dies sind entscheidende Fragen, um die gesellschaftlichen Folgen der Pandemie zu verstehen und Maßnahmen abzuleiten, die die Zivilgesellschaft bei der Krisenbewältigung gezielt fördern. Wir werden gefördert von der Berlin University Alliance (BUA)."
+  title : "About Us"
+  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id."
   image : "images/wrapper-img.png"
 
 
 ######################### Portfolio ###############################
 portfolio:
-  enable : false
+  enable : true
   bg_image : "images/featue-bg.jpg"
   title : "WE BELIEVE IN GREAT IDEAS"
   content : "
@@ -85,7 +90,7 @@ funfacts:
   testimonial_slider:
     # testimonial item loop
     - name : "Raymond Roy"
-      image : "images/SolZiv_logo/Original on Transparent.png"
+      image : "images/clients/avater-1.jpg"
       designation : "CEO-Themefisher"
       content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
                 ideas we feel that our site has unique elements that make us stand out from the crowd."
