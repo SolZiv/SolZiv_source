@@ -21,37 +21,37 @@ languageCode = "en-us"
 languageName = "En"
 weight = "2"
 [[menu.footer]]
-URL = "contact"
-name = "Kontact"
-weight = 4
+URL = "projekt"
+name = "Projekt"
+weight = 1
 [[menu.footer]]
-URL = "service"
-name = "Blog"
-weight = 3
-[[menu.footer]]
-URL = "project"
-name = "Team"
+URL = "team"
+name = "team"
 weight = 2
 [[menu.footer]]
-URL = "about"
+URL = "service"
+name = "Service"
+weight = 3
+[[menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 6
+[[menu.main]]
+URL = "projekt"
 name = "Projekt"
 weight = 1
 [[menu.main]]
-URL = "contact"
-name = "Kontact"
-weight = 4
+URL = "team"
+name = "Team"
+weight = 3
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 3
+weight = 4
 [[menu.main]]
-URL = "service"
-name = "Team"
-weight = 2
-[[menu.main]]
-URL = "about"
-name = "Projekt"
-weight = 1
+URL = "contact"
+name = "Contact"
+weight = 6
 [params]
 author = "SolZiv"
 contact_form_action = "#"
