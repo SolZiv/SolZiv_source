@@ -21,8 +21,8 @@ languageCode = "en-us"
 languageName = "En"
 weight = "2"
 [[menu.footer]]
-URL = "about"
-name = "About"
+URL = "projekt"
+name = "Projekt"
 weight = 1
 [[menu.footer]]
 URL = "project"
@@ -48,10 +48,6 @@ weight = 3
 URL = "blog"
 name = "Blog"
 weight = 4
-[[menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 5
 [[menu.main]]
 URL = "contact"
 name = "Contact"
