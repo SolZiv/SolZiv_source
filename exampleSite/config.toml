@@ -29,8 +29,8 @@ URL = "team"
 name = "team"
 weight = 2
 [[menu.footer]]
-URL = "service"
-name = "Service"
+URL = "blog"
+name = "Blog"
 weight = 3
 [[menu.footer]]
 URL = "contact"
