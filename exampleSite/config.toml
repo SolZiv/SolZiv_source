@@ -1,5 +1,5 @@
-baseURL = "https://solziv.netlify.app/"
 DefaultContentLanguage = "de"
+baseURL = "https://solziv.netlify.app/"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
@@ -33,14 +33,6 @@ URL = "service"
 name = "Service"
 weight = 3
 [[menu.footer]]
-URL = "pricing"
-name = "Pricing"
-weight = 4
-[[menu.footer]]
-URL = "faq"
-name = "FAQ"
-weight = 5
-[[menu.footer]]
 URL = "contact"
 name = "Contact"
 weight = 6
@@ -60,14 +52,6 @@ weight = 4
 hasChildren = true
 name = "Pages"
 weight = 5
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-parent = "Pages"
-[[menu.main]]
-URL = "pricing"
-name = "Pricing"
-parent = "Pages"
 [[menu.main]]
 URL = "contact"
 name = "Contact"
