@@ -49,9 +49,9 @@ URL = "blog"
 name = "Blog"
 weight = 4
 [[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 6
+URL = "kontakt"
+name = "Kontact"
+weight = "5"
 [params]
 author = "SolZiv"
 contact_form_action = "#"
