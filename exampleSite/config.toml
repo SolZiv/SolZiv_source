@@ -21,7 +21,7 @@ languageCode = "en-us"
 languageName = "En"
 weight = "2"
 [[menu.footer]]
-URL = "projekt"
+URL = "about2"
 name = "Projekt"
 weight = 1
 [[menu.footer]]
