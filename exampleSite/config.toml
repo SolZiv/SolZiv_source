@@ -22,15 +22,15 @@ languageName = "En"
 weight = "2"
 [[menu.footer]]
 URL = "contact"
-name = "Contact"
+name = "Kontact"
 weight = 4
 [[menu.footer]]
 URL = "service"
-name = "Service"
+name = "Blog"
 weight = 3
 [[menu.footer]]
 URL = "project"
-name = "Project"
+name = "Team"
 weight = 2
 [[menu.footer]]
 URL = "about"
@@ -38,7 +38,7 @@ name = "Projekt"
 weight = 1
 [[menu.main]]
 URL = "contact"
-name = "Contact"
+name = "Kontact"
 weight = 4
 [[menu.main]]
 URL = "blog"
@@ -46,7 +46,7 @@ name = "Blog"
 weight = 3
 [[menu.main]]
 URL = "service"
-name = "Service"
+name = "Team"
 weight = 2
 [[menu.main]]
 URL = "about"
