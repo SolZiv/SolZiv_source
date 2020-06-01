@@ -20,30 +20,26 @@ home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = "2"
-[[menu.footer]]
-URL = "contact"
-name = "Kontact"
-weight = 4
-[[menu.footer]]
+[menu.main]
 URL = "service"
-name = "Blog"
-weight = 3
-[[menu.footer]]
-URL = "project"
 name = "Team"
 weight = 2
 [[menu.footer]]
-URL = "about"
+URL = "projekt"
 name = "Projekt"
 weight = 1
-[[menu.main]]
+[[menu.footer]]
+URL = "service"
+name = "team"
+weight = 2
+[[menu.footer]]
 URL = "blog"
 name = "Blog"
 weight = 3
-[[menu.main]]
-URL = "about"
-name = "Projekt"
-weight = 1
+[[menu.footer]]
+URL = "kontact"
+name = "Kontact"
+weight = 6
 [params]
 author = "SolZiv"
 contact_form_action = "#"
