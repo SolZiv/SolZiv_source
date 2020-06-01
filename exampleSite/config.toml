@@ -37,8 +37,8 @@ URL = "contact"
 name = "Contact"
 weight = 6
 [[menu.main]]
-URL = "about"
-name = "About"
+URL = "projekt"
+name = "Projekt"
 weight = 1
 [[menu.main]]
 URL = "service"
