@@ -1,14 +1,14 @@
 ---
 about:
   enable: true
-  title: Creative UX/UI Design Agency
+  title: SolZiv
   content: 'Unser Projekt untersucht Ausmaß und Bedingungen solidarischen Verhaltens
     in zivilgesellschaftlichen Formen während der Corona-Pandemie. Zum einen: Wer
     engagiert sich zivilgesellschaftlich? In welcher Form? Und wie wird das Engagement
     trotz weitreichender Kontaktverbote praktisch umgesetzt? Zum anderen: Wer profitiert
     vom Engagement? Wer fühlt sich übersehen? Und welche Angebote nehmen Bedürftige
     an?'
-  image: images/company/company-group-pic.jpg
+  image: images/zivilgettyimages-1216439522.jpg
   button:
     enable: true
     label: Download Antrag
