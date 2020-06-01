@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: ENTDECKE SOLZIV
-    link: about
+    link: projekt
 about:
   enable: true
   title: Unser Forschungsprojekt
@@ -42,7 +42,7 @@ portfolio:
     label: View Works
     link: project
 service:
-  enable: true
+  enable: false
 cta:
   enable: false
   bg_image: images/call-to-action-bg.jpg
