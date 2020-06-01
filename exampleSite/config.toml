@@ -37,7 +37,7 @@ URL = "contact"
 name = "Contact"
 weight = 6
 [[menu.main]]
-URL = "about"
+URL = "projekt"
 name = "Projekt"
 weight = 1
 [[menu.main]]
