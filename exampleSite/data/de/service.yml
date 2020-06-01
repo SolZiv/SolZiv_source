@@ -16,6 +16,11 @@ about:
 featured_service:
   enable: true
   service_item:
+  - name: Engagement
+    icon: ion-people-outline
+    color: primary-darker
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim
+      impedit repudiandae omnis est temporibus.
   - name: Personality traits
     icon: ion-body-outline
     color: primary
@@ -24,11 +29,6 @@ featured_service:
   - name: Emotions
     icon: ion-thumbs-up-outline
     color: primary-dark
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim
-      impedit repudiandae omnis est temporibus.
-  - name: Engagement
-    icon: ion-people-outline
-    color: primary-darker
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim
       impedit repudiandae omnis est temporibus.
 service:
