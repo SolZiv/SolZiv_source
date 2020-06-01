@@ -21,6 +21,10 @@ about:
     bei der Krisenbewältigung gezielt fördern. Wir werden gefördert von der Berlin
     University Alliance (BUA).'
   image: images/wrapper-img.png
+  funfacts:
+  - icon: ''
+    name: ''
+    count: ''
 portfolio:
   enable: false
   bg_image: images/featue-bg.jpg
