@@ -13,6 +13,13 @@ about:
     enable: true
     label: Download Antrag
     link: "#"
+  funfacts:
+  - icon: ''
+    count: "5"
+    name: Länder
+  - icon: ''
+    name: ''
+    count: ''
 featured_service:
   enable: true
   service_item:
