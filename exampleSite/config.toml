@@ -41,7 +41,7 @@ URL = "about"
 name = "Projekt"
 weight = 1
 [[menu.main]]
-URL = "team"
+URL = "service"
 name = "Team"
 weight = "2"
 [[menu.main]]
