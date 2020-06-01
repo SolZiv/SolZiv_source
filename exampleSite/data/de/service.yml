@@ -14,7 +14,7 @@ about:
     label: Download Antrag
     link: "#"
   funfacts:
-  - icon: ''
+  - icon: ion-earth
     count: "5"
     name: Länder
   - icon: ''
