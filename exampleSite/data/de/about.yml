@@ -1,0 +1,49 @@
+################################## About #####################################
+about:
+  enable : true
+  image : "images/company/about.jpg"
+  title : "Unser Projekt untersucht Ausmaß und Bedingungen solidarischen Verhaltens
+    in zivilgesellschaftlichen Formen während der Corona-Pandemie."
+  content : 'Zum einen: Wer engagiert sich zivilgesellschaftlich? In welcher Form?
+    Und wie wird das Engagement trotz weitreichender Kontaktverbote praktisch umgesetzt?
+    Zum anderen: Wer profitiert vom Engagement? Wer fühlt sich übersehen? Und welche
+    Angebote nehmen Bedürftige an? Dies sind entscheidende Fragen, um die gesellschaftlichen
+    Folgen der Pandemie zu verstehen und Maßnahmen abzuleiten, die die Zivilgesellschaft
+    bei der Krisenbewältigung gezielt fördern. Wir werden gefördert von der Berlin
+    University Alliance (BUA).'
+
+  button:
+    enable : true
+    label : "Laden Sie den Forschungsantrag herunter"
+    link : "documents/SolZiv_Antrag.pdf"
+
+      
+################################ feature #####################################
+features:
+  enable : true
+  title : "Arbeitspakete"
+  feature_item:
+    # feature item loop
+    - icon : "ion-ios-compose" #ionicon pack v2 : https://ionicons.com/v2/
+      name : " Bevölkerungsumfrage"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+    # feature item loop
+    - icon : "ion-chatboxes" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Organisationsbefragung"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+    # feature item loop
+    - icon : "ion-happy" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Emotionen"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+    # feature item loop
+    - icon : "ion-ios-personadd" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Persönlichkeit"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+    # feature item loop
+    - icon : "ion-ios-people" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Kontext"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"

@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: ENTDECKE SOLZIV
-    link: projekt
+    link: about
 about:
   enable: true
   title: Unser Forschungsprojekt
@@ -41,6 +41,8 @@ portfolio:
     enable: true
     label: View Works
     link: project
+blog:
+  enable: true
 service:
   enable: false
 cta:

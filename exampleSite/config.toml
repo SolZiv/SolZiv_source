@@ -1,3 +1,4 @@
+################################# Default configuration ###################
 DefaultContentLanguage = "de"
 baseURL = "https://solziv.netlify.app/"
 disableLanguages = []
@@ -5,61 +6,10 @@ disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
-title = "SolZiv | POTENZIALE DER ZIVILGESELLSCHAFT"
-[Languages.de]
-contentDir = "content/german"
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
-home = "Accueil"
-languageCode = "de-de"
-languageName = "De"
-weight = "1"
-[Languages.en]
-contentDir = "content/english"
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
-home = "Home"
-languageCode = "en-us"
-languageName = "En"
-weight = "2"
-[[menu.main]]
-URL = "service"
-name = "Team"
-weight = 2
-[[menu.footer]]
-URL = "projekt"
-name = "Projekt"
-weight = 1
-[[menu.footer]]
-URL = "service"
-name = "team"
-weight = 2
-[[menu.footer]]
-URL = "blog"
-name = "Blog"
-weight = 3
-[[menu.footer]]
-URL = "kontact"
-name = "Kontact"
-weight = 6
-[params]
-author = "SolZiv"
-contact_form_action = "#"
-description = "Potenziale der Zivilgesellschaft"
-email = "demo@email.com"
-google_analitycs_id = ""
-location = "North Main Street,Brooklyn Australia"
-logo = "images/SolZiv_logo/Original on Transparent_small.png"
-mobile = "0124857985320"
-multi_author = false
-[params.gmap]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
-[params.nav_button]
-enable = true
-label = "Get A Quote"
-link = "contact"
+title = "SolZiv | Potenziale der Zivilgesellschaft"
+
+#################################### Plugins ##############################
+
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -80,11 +30,43 @@ link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
+
+############################### widgets #################################
+[params.widgets]
+sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+
+#################### default parameters ################################
+[params]
+author = "SolZiv"
+contact_form_action = "#"
+description = "Potenziale der Zivilgesellschaft"
+email = "solziv2020@gmail.com"
+google_analitycs_id = "UA-168222438-1"
+location = "Berlin, Germany"
+logo = "images/SolZiv_logo/Original on Transparent_small.png"
+mobile = "0124857985320"
+multi_author = false
+
+# google map
+[params.gmap]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+map_latitude = "52.5162778"
+map_longitude = "13.3755154"
+map_marker = "images/marker.png"
+
+# Navigation get start button
+[params.nav_button]
+enable = true
+label = "Get A Quote"
+link = "contact"
+
+# Preloader
 [params.preloader]
 enable = true
 preloader = ""
-[params.widgets]
-sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+
+############################# social site ########################
 [[params.social]]
 icon = "ion-social-googleplus-outline"
 link = "#"
@@ -103,3 +85,107 @@ link = "#"
 [[params.social]]
 icon = "ion-social-facebook-outline"
 link = "#"
+
+################################ German Language ########################
+[languages.de]
+contentDir = "content/german"
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+home = "home"
+languageCode = "de-de"
+languageName = "De"
+weight = "1"
+# german menu
+
+# main menu
+[[languages.de.menu.main]]
+name = "Projekt"
+URL = "about"
+weight = 1
+
+[[languages.de.menu.main]]
+URL = "service"
+name = "Team"
+weight = 2
+
+[[languages.de.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 3
+
+[[languages.de.menu.main]]
+URL = "contact"
+name = "Kontakt"
+weight = 4
+
+# footer menu
+
+[[languages.de.menu.footer]]
+URL = "about"
+name = "Projekt"
+weight = 1
+
+[[languages.de.menu.footer]]
+URL = "service"
+name = "Team"
+weight = 2
+[[languages.de.menu.footer]]
+URL = "blog"
+name = "Blog"
+weight = 3
+[[languages.de.menu.footer]]
+URL = "contact"
+name = "Kontakt"
+weight = 4
+
+################################ English Language ########################
+[languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+home = "Home"
+languageCode = "en-us"
+languageName = "En"
+weight = "2"
+
+# main menu
+[[languages.en.menu.main]]
+name = "Project"
+URL = "about"
+weight = 1
+
+[[languages.en.menu.main]]
+URL = "service"
+name = "Team"
+weight = 2
+
+[[languages.en.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 3
+
+[[languages.en.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+
+
+# footer menu
+
+[[languages.en.menu.footer]]
+URL = "about"
+name = "Project"
+weight = 1
+
+[[languages.en.menu.footer]]
+URL = "service"
+name = "Team"
+weight = 2
+[[languages.en.menu.footer]]
+URL = "blog"
+name = "Blog"
+weight = 3
+[[languages.en.menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 4
+
+

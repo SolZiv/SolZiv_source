@@ -1,0 +1,9 @@
+########################### about service #############################
+about:
+  enable : true
+  title : "Principal Investigators"
+  content : "Prof. Dr. Swen Hutter <br>
+  Prof. Dr. Christian von Scheve  <br>
+  Prof. Dr. Jule Specht"
+  image : "images/company/company-group-pic.jpg"
+
