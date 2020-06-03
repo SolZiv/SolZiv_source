@@ -2,6 +2,7 @@
 banner:
   enable: true
   bg_image: images/zivilgettyimages-1216439522.jpg
+  bg_overlay: false
   title: Potenziale der Zivilgesellschaft
   content: Forschungsprojekt zu solidarischem Verhalten bei der Krisenbewältigung
   button:
